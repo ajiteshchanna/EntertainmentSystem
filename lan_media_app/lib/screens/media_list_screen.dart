@@ -370,7 +370,7 @@ class _MediaListScreenState extends State<MediaListScreen> {
             ),
             subtitle: Text(
               media.type.toUpperCase(),
-              style: const TextStyle(color: Colors.white54),
+              style: const TextStyle(color: Color.fromARGB(137, 0, 0, 0)),
             ),
             trailing: IconButton(
               tooltip: "Download",

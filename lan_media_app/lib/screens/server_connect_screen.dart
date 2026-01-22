@@ -15,7 +15,7 @@ class _ServerConnectScreenState extends State<ServerConnectScreen> {
   String status = "";
 
   // ✅ Your default server
-  final String defaultIp = "10.227.238.70:8000";
+  final String defaultIp = "10.0.6.100:8000";
 
   void connectToServer() {
     final input = _controller.text.trim();
